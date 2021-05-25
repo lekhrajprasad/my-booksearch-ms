@@ -1,0 +1,11 @@
+spring:
+    profiles:
+        active: dev
+    cloud:
+        config:
+            uri: http://localhost:2345
+    application:
+        name: my-booksearch-ms
+
+server:
+    port: 8000
